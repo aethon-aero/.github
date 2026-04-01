@@ -1,8 +1,14 @@
 <div align="center">
 
-# Aethon Aerospace
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/aethon-aero/.github/main/assets/logo-dark.svg">
+  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/aethon-aero/.github/main/assets/logo-light.svg">
+  <img alt="Aethon Aerospace" src="https://raw.githubusercontent.com/aethon-aero/.github/main/assets/logo-dark.svg" width="400">
+</picture>
 
-### *Software-Defined Aviation for the Next Century*
+<br><br>
+
+**Software-Defined Aviation for the Next Century**
 
 <br>
 
@@ -304,6 +310,12 @@ docker compose up -d
 ---
 
 <div align="center">
+
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/aethon-aero/.github/main/assets/icon.svg">
+  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/aethon-aero/.github/main/assets/icon.svg">
+  <img alt="Aethon" src="https://raw.githubusercontent.com/aethon-aero/.github/main/assets/icon.svg" width="32">
+</picture>
 
 **Aethon Aerospace** — Building the future of aviation
 
