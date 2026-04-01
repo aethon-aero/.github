@@ -1,9 +1,9 @@
 <div align="center">
 
 <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/aethon-aero/.github/main/assets/logo-dark.svg">
-  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/aethon-aero/.github/main/assets/logo-light.svg">
-  <img alt="Aethon Aerospace" src="https://raw.githubusercontent.com/aethon-aero/.github/main/assets/logo-dark.svg" width="400">
+  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/aethon-aero/.github/main/assets/logo-dark.png">
+  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/aethon-aero/.github/main/assets/logo-light.png">
+  <img alt="Aethon Aerospace" src="https://raw.githubusercontent.com/aethon-aero/.github/main/assets/logo-light.png" width="420">
 </picture>
 
 <br><br>
@@ -312,9 +312,9 @@ docker compose up -d
 <div align="center">
 
 <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/aethon-aero/.github/main/assets/icon.svg">
-  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/aethon-aero/.github/main/assets/icon.svg">
-  <img alt="Aethon" src="https://raw.githubusercontent.com/aethon-aero/.github/main/assets/icon.svg" width="32">
+  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/aethon-aero/.github/main/assets/logo-dark.png">
+  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/aethon-aero/.github/main/assets/logo-light.png">
+  <img alt="Aethon" src="https://raw.githubusercontent.com/aethon-aero/.github/main/assets/logo-light.png" width="120">
 </picture>
 
 **Aethon Aerospace** — Building the future of aviation
