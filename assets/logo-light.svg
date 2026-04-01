@@ -1,0 +1,7 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 100" fill="none">
+  <rect width="320" height="100" rx="12" fill="#FFFFFF" stroke="#E5E7EB" stroke-width="1"/>
+  <path d="M50 20L62 50H38L50 20Z" fill="#0A2240"/>
+  <path d="M50 80L38 50H62L50 80Z" fill="#0A2240" opacity="0.6"/>
+  <circle cx="50" cy="50" r="8" fill="#0A2240" opacity="0.3"/>
+  <text x="85" y="58" font-family="system-ui, -apple-system, 'Segoe UI', sans-serif" font-size="32" font-weight="600" fill="#0A2240" letter-spacing="4">AETHON</text>
+</svg>
