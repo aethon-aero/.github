@@ -1,6 +1,6 @@
 <div align="center">
 
-# ✈️ Aethon Aerospace
+# Aethon Aerospace
 
 ### *Software-Defined Aviation for the Next Century*
 
@@ -19,11 +19,11 @@
 
 </div>
 
-## 🏗️ Organization Architecture
+## Organization Architecture
 
 ```mermaid
 graph TB
-    subgraph GOVERNANCE["🏛️ Governance — Wave 1"]
+    subgraph GOVERNANCE["Governance — Wave 1"]
         OP[org-policies]
         RT[repo-templates]
         EH[engineering-handbook]
@@ -31,7 +31,7 @@ graph TB
         DS[aethon-devsecops-platform]
     end
 
-    subgraph AETHON_OS["🧠 Aethon-OS Digital Thread — Wave 2"]
+    subgraph AETHON_OS["Aethon-OS Digital Thread — Wave 2"]
         CORE[aethon-os-core]
         DATA[aethon-os-data-platform]
         CERT[aethon-os-certification-spine]
@@ -39,7 +39,7 @@ graph TB
         MFG[aethon-os-digital-manufacturing]
     end
 
-    subgraph ENGINEERING["⚙️ Engineering Tooling — Wave 3"]
+    subgraph ENGINEERING["Engineering Tooling — Wave 3"]
         CFD[aethon-cfd-automation]
         FEA[aethon-fea-automation]
         MBSE[aethon-mbse-tooling]
@@ -48,14 +48,14 @@ graph TB
         REQ[aethon-requirements-traceability]
     end
 
-    subgraph PROGRAMS["🛩️ Programs — Wave 4"]
+    subgraph PROGRAMS["Programs — Wave 4"]
         PC[aethon-c-program<br/>BWB Cargo 220t]
         PP[aethon-p-program<br/>Passenger]
         PX[aethon-x-program<br/>Experimental TRL 3-5]
         CCFD[aethon-c-cfd<br/>Tier-1 Data Room]
     end
 
-    subgraph QUALITY["🔬 Quality & Certification — Wave 5"]
+    subgraph QUALITY["Quality & Certification — Wave 5"]
         QS[aethon-quality-systems]
         CE[aethon-certification-evidence-tools]
         TR[aethon-test-rig-software]
@@ -86,7 +86,7 @@ graph TB
 
 ---
 
-## 🛩️ Aircraft Programs
+## Aircraft Programs
 
 <table>
 <tr>
@@ -124,7 +124,7 @@ Market analysis active
 ![Type](https://img.shields.io/badge/Type-Tech_Demonstrator-333333?style=flat-square)
 
 Subscale flight test vehicles
-Technology pipeline for C & P
+Technology pipeline for C and P
 
 </td>
 </tr>
@@ -132,45 +132,45 @@ Technology pipeline for C & P
 
 ---
 
-## 🧠 Aethon-OS Platform
+## Aethon-OS Platform
 
 The **Aethon-OS** is our software-defined aviation backbone — an event-driven microservices platform that provides the digital thread connecting design, manufacturing, certification, and fleet operations across all programs.
 
 | Module | Purpose | Tech Stack |
 |--------|---------|-----------|
-| [`aethon-os-core`](https://github.com/aethon-aero/aethon-os-core) | API gateway, digital thread, event bus | Python · TypeScript · FastAPI · GraphQL |
-| [`aethon-os-data-platform`](https://github.com/aethon-aero/aethon-os-data-platform) | Data ingestion, ETL, analytics serving | Python · Parquet · Arrow · PostgreSQL |
-| [`aethon-os-certification-spine`](https://github.com/aethon-aero/aethon-os-certification-spine) | Evidence packaging, compliance tracking | Python · DO-178C · ARP4754A |
-| [`aethon-os-fleet-intelligence`](https://github.com/aethon-aero/aethon-os-fleet-intelligence) | Predictive maintenance, health monitoring | Python · ML · Time-Series |
-| [`aethon-os-digital-manufacturing`](https://github.com/aethon-aero/aethon-os-digital-manufacturing) | QA vision, SPC, production analytics | Python · OpenCV · AS9100D |
+| [`aethon-os-core`](https://github.com/aethon-aero/aethon-os-core) | API gateway, digital thread, event bus | Python, TypeScript, FastAPI, GraphQL |
+| [`aethon-os-data-platform`](https://github.com/aethon-aero/aethon-os-data-platform) | Data ingestion, ETL, analytics serving | Python, Parquet, Arrow, PostgreSQL |
+| [`aethon-os-certification-spine`](https://github.com/aethon-aero/aethon-os-certification-spine) | Evidence packaging, compliance tracking | Python, DO-178C, ARP4754A |
+| [`aethon-os-fleet-intelligence`](https://github.com/aethon-aero/aethon-os-fleet-intelligence) | Predictive maintenance, health monitoring | Python, ML, Time-Series |
+| [`aethon-os-digital-manufacturing`](https://github.com/aethon-aero/aethon-os-digital-manufacturing) | QA vision, SPC, production analytics | Python, OpenCV, AS9100D |
 
 ---
 
-## ⚙️ Engineering Tooling
+## Engineering Tooling
 
 | Repository | Domain | Capabilities |
 |-----------|--------|-------------|
-| [`aethon-cfd-automation`](https://github.com/aethon-aero/aethon-cfd-automation) | Aerodynamics | OpenFOAM · SU2 · HPC orchestration · Mesh automation |
-| [`aethon-fea-automation`](https://github.com/aethon-aero/aethon-fea-automation) | Structures | Nastran · Abaqus · Composites · Fatigue & DT |
-| [`aethon-mbse-tooling`](https://github.com/aethon-aero/aethon-mbse-tooling) | Systems | SysML 2.0 · Capella · ICD generation · N2 diagrams |
-| [`aethon-flight-sciences-tools`](https://github.com/aethon-aero/aethon-flight-sciences-tools) | Flight Sciences | Aero DB · S&C · Loads · OpenVSP · PANAIR |
-| [`aethon-performance-trades`](https://github.com/aethon-aero/aethon-performance-trades) | Performance | Sizing · MDO · Payload-Range · Trade studies |
-| [`aethon-requirements-traceability`](https://github.com/aethon-aero/aethon-requirements-traceability) | Requirements | DOORS · V&V · Compliance matrix · Bidirectional trace |
+| [`aethon-cfd-automation`](https://github.com/aethon-aero/aethon-cfd-automation) | Aerodynamics | OpenFOAM, SU2, HPC orchestration, mesh automation |
+| [`aethon-fea-automation`](https://github.com/aethon-aero/aethon-fea-automation) | Structures | Nastran, Abaqus, composites, fatigue and DT |
+| [`aethon-mbse-tooling`](https://github.com/aethon-aero/aethon-mbse-tooling) | Systems | SysML 2.0, Capella, ICD generation, N2 diagrams |
+| [`aethon-flight-sciences-tools`](https://github.com/aethon-aero/aethon-flight-sciences-tools) | Flight Sciences | Aero DB, S&C, loads, OpenVSP, PANAIR |
+| [`aethon-performance-trades`](https://github.com/aethon-aero/aethon-performance-trades) | Performance | Sizing, MDO, payload-range, trade studies |
+| [`aethon-requirements-traceability`](https://github.com/aethon-aero/aethon-requirements-traceability) | Requirements | DOORS, V&V, compliance matrix, bidirectional trace |
 
 ---
 
-## 🔬 Quality & Certification
+## Quality and Certification
 
 | Repository | Purpose | Standards |
 |-----------|---------|-----------|
-| [`aethon-quality-systems`](https://github.com/aethon-aero/aethon-quality-systems) | QMS tooling (NCR, CAPA, FAI, SPC) | AS9100D · ISO 9001 |
-| [`aethon-certification-evidence-tools`](https://github.com/aethon-aero/aethon-certification-evidence-tools) | Evidence packaging & audit prep | DO-178C · DO-254 · ARP4754A |
-| [`aethon-test-rig-software`](https://github.com/aethon-aero/aethon-test-rig-software) | Iron bird · HIL · Integration bench | DO-160G · DO-178C |
-| [`aethon-supplier-interface-tools`](https://github.com/aethon-aero/aethon-supplier-interface-tools) | Supplier data exchange & validation | AS9100D · ITAR |
+| [`aethon-quality-systems`](https://github.com/aethon-aero/aethon-quality-systems) | QMS tooling (NCR, CAPA, FAI, SPC) | AS9100D, ISO 9001 |
+| [`aethon-certification-evidence-tools`](https://github.com/aethon-aero/aethon-certification-evidence-tools) | Evidence packaging and audit prep | DO-178C, DO-254, ARP4754A |
+| [`aethon-test-rig-software`](https://github.com/aethon-aero/aethon-test-rig-software) | Iron bird, HIL, integration bench | DO-160G, DO-178C |
+| [`aethon-supplier-interface-tools`](https://github.com/aethon-aero/aethon-supplier-interface-tools) | Supplier data exchange and validation | AS9100D, ITAR |
 
 ---
 
-## 🏛️ Governance
+## Governance
 
 | Repository | Purpose |
 |-----------|---------|
@@ -182,7 +182,7 @@ The **Aethon-OS** is our software-defined aviation backbone — an event-driven 
 
 ---
 
-## 📊 Repository Standards
+## Repository Standards
 
 Every repository in this organization includes:
 
@@ -190,26 +190,26 @@ Every repository in this organization includes:
 <tr>
 <td width="50%">
 
-**Governance & Documentation**
-- ✅ Production-grade README with Mermaid architecture diagrams
-- ✅ CONTRIBUTING.md with branch strategy & PR process
-- ✅ CHANGELOG.md (Keep a Changelog format)
-- ✅ CODE_OF_CONDUCT.md
-- ✅ SECURITY.md with vulnerability reporting procedures
-- ✅ LICENSE (Proprietary with export control clauses)
-- ✅ CODEOWNERS (team-specific review routing)
+**Governance and Documentation**
+- Production-grade README with Mermaid architecture diagrams
+- CONTRIBUTING.md with branch strategy and PR process
+- CHANGELOG.md (Keep a Changelog format)
+- CODE_OF_CONDUCT.md
+- SECURITY.md with vulnerability reporting procedures
+- LICENSE (Proprietary with export control clauses)
+- CODEOWNERS (team-specific review routing)
 
 </td>
 <td width="50%">
 
 **Engineering Infrastructure**
-- ✅ GitHub Actions CI pipeline (lint → test → security → build)
-- ✅ Dependabot for automated dependency updates
-- ✅ Makefile with standard development commands
-- ✅ .editorconfig for consistent formatting
-- ✅ pyproject.toml (ruff + mypy + pytest)
-- ✅ .env.example with documented variables
-- ✅ Domain-specific directory scaffolds
+- GitHub Actions CI pipeline (lint, test, security, build)
+- Dependabot for automated dependency updates
+- Makefile with standard development commands
+- .editorconfig for consistent formatting
+- pyproject.toml (ruff + mypy + pytest)
+- .env.example with documented variables
+- Domain-specific directory scaffolds
 
 </td>
 </tr>
@@ -217,21 +217,21 @@ Every repository in this organization includes:
 <td>
 
 **Issue Templates**
-- 🐛 Bug report
-- ✨ Feature request
-- 🏗️ Architecture decision (ADR)
-- 📋 Certification finding
-- 🔧 Nonconformance report (NCR)
-- 🔒 Security concern
+- Bug report
+- Feature request
+- Architecture decision (ADR)
+- Certification finding
+- Nonconformance report (NCR)
+- Security concern
 
 </td>
 <td>
 
 **Platform Repos Additionally**
-- 🐳 Multi-stage Dockerfile (non-root, healthcheck)
-- 🐳 docker-compose.yml (Postgres + Redis)
-- 🐳 .dockerignore (security-hardened)
-- 📊 Full CI with container build + push
+- Multi-stage Dockerfile (non-root, healthcheck)
+- docker-compose.yml (Postgres + Redis)
+- .dockerignore (security-hardened)
+- Full CI with container build and push
 
 </td>
 </tr>
@@ -239,7 +239,7 @@ Every repository in this organization includes:
 
 ---
 
-## 🔐 Classification System
+## Classification System
 
 | Class | Visibility | Access | Repos |
 |-------|-----------|--------|-------|
@@ -249,7 +249,7 @@ Every repository in this organization includes:
 
 ---
 
-## 📋 Applicable Standards
+## Applicable Standards
 
 | Standard | Scope |
 |----------|-------|
@@ -265,7 +265,7 @@ Every repository in this organization includes:
 
 ---
 
-## 👥 Engineering Teams
+## Engineering Teams
 
 | Team | Domain | Key Repos |
 |------|--------|-----------|
@@ -281,7 +281,7 @@ Every repository in this organization includes:
 
 ---
 
-## 🚀 Quick Start
+## Quick Start
 
 ```bash
 # Prerequisites: GitHub CLI authenticated with org access
@@ -305,9 +305,11 @@ docker compose up -d
 
 <div align="center">
 
-**Aethon Aerospace** · Building the future of aviation
+**Aethon Aerospace** — Building the future of aviation
 
-[`org-policies`](https://github.com/aethon-aero/org-policies) · [`engineering-handbook`](https://github.com/aethon-aero/engineering-handbook) · [`aethon-docs`](https://github.com/aethon-aero/aethon-docs)
+[`org-policies`](https://github.com/aethon-aero/org-policies) ·
+[`engineering-handbook`](https://github.com/aethon-aero/engineering-handbook) ·
+[`aethon-docs`](https://github.com/aethon-aero/aethon-docs)
 
 *Proprietary and Confidential — All Rights Reserved*
 
