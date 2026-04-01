@@ -1,10 +1,6 @@
 <div align="center">
 
-<picture>
-  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/aethon-aero/.github/main/assets/logo-dark.png">
-  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/aethon-aero/.github/main/assets/logo-light.png">
-  <img alt="Aethon Aerospace" src="https://raw.githubusercontent.com/aethon-aero/.github/main/assets/logo-light.png" width="420">
-</picture>
+<img alt="Aethon Aerospace" src="https://raw.githubusercontent.com/aethon-aero/.github/main/assets/logo-light.png" width="420">
 
 <br><br>
 
@@ -311,11 +307,7 @@ docker compose up -d
 
 <div align="center">
 
-<picture>
-  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/aethon-aero/.github/main/assets/logo-dark.png">
-  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/aethon-aero/.github/main/assets/logo-light.png">
-  <img alt="Aethon" src="https://raw.githubusercontent.com/aethon-aero/.github/main/assets/logo-light.png" width="120">
-</picture>
+<img alt="Aethon" src="https://raw.githubusercontent.com/aethon-aero/.github/main/assets/logo-light.png" width="120">
 
 **Aethon Aerospace** — Building the future of aviation
 
