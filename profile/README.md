@@ -23,68 +23,7 @@
 
 ## Organization Architecture
 
-```mermaid
-graph TB
-    subgraph GOVERNANCE["Governance — Wave 1"]
-        OP[org-policies]
-        RT[repo-templates]
-        EH[engineering-handbook]
-        AD[aethon-docs]
-        DS[aethon-devsecops-platform]
-    end
-
-    subgraph AETHON_OS["Aethon-OS Digital Thread — Wave 2"]
-        CORE[aethon-os-core]
-        DATA[aethon-os-data-platform]
-        CERT[aethon-os-certification-spine]
-        FLEET[aethon-os-fleet-intelligence]
-        MFG[aethon-os-digital-manufacturing]
-    end
-
-    subgraph ENGINEERING["Engineering Tooling — Wave 3"]
-        CFD[aethon-cfd-automation]
-        FEA[aethon-fea-automation]
-        MBSE[aethon-mbse-tooling]
-        FS[aethon-flight-sciences-tools]
-        PT[aethon-performance-trades]
-        REQ[aethon-requirements-traceability]
-    end
-
-    subgraph PROGRAMS["Programs — Wave 4"]
-        PC[aethon-c-program<br/>BWB Cargo 220t]
-        PP[aethon-p-program<br/>Passenger]
-        PX[aethon-x-program<br/>Experimental TRL 3-5]
-        CCFD[aethon-c-cfd<br/>Tier-1 Data Room]
-    end
-
-    subgraph QUALITY["Quality & Certification — Wave 5"]
-        QS[aethon-quality-systems]
-        CE[aethon-certification-evidence-tools]
-        TR[aethon-test-rig-software]
-        SI[aethon-supplier-interface-tools]
-    end
-
-    OP --> |governs| AETHON_OS
-    OP --> |governs| ENGINEERING
-    OP --> |governs| PROGRAMS
-    OP --> |governs| QUALITY
-    DS --> |secures| AETHON_OS
-    DS --> |secures| ENGINEERING
-
-    CORE --> DATA
-    CORE --> CERT
-    CORE --> FLEET
-    CORE --> MFG
-
-    PC --> CCFD
-    PC --> CFD
-    PC --> FS
-    PC --> PT
-
-    CERT --> CE
-    CERT --> REQ
-    MFG --> QS
-```
+<img src="https://raw.githubusercontent.com/aethon-aero/.github/main/assets/org-architecture.svg" alt="Organization Architecture" width="100%">
 
 ---
 
