@@ -15,7 +15,7 @@
 
 <br>
 
-**24 Repositories** · **14 Engineering Teams** · **3 Aircraft Programs** · **5 Aethon-OS Modules**
+**28 Repositories** · **14 Engineering Teams** · **3 Aircraft Programs** · **5 Aethon-OS Modules**
 
 ---
 
